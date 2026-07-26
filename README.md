@@ -1,4 +1,6 @@
 POCO F7 6GHz Wi-Fi (6Ghz) Enabler
+<b>1- Root Required
+2- i Tested its Indian POCO F7 Ver (Flashed Globel ROM ) </b>
 This release unlocks the hidden 6 GHz Wi-Fi (Wi-Fi 6E/7) capability on the POCO F7 by bypassing the manufacturer's software-level OEM restrictions.
 
 Credits: Successfully researched, tested, and implemented by Akhilesh Shukla (Hardoi, Uttar Pradesh).
