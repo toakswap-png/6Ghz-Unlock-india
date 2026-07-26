@@ -31,7 +31,7 @@ Tap on Install from storage and select the downloaded ZIP files.
 Reboot your phone.
 
 Verify your connection using any standard Wi-Fi Analyzer tool supporting 6 GHz.
-
+CREATED BY AKHILESH KUMAR SHUKLA
 ⚠️ Disclaimer
 Root access carries inherent risks. Use this module at your own discretion.
 
