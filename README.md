@@ -19,3 +19,20 @@ The module modifies the WLAN driver configuration file located at `/vendor/etc/w
 BandCapability=7
 scan_mode_6ghz=1
 oem_6g_support_disable=0
+How to Install
+Make sure your device is rooted with Magisk or KernelSU.
+
+Download the latest release ZIP from the Releases section.
+
+Open your Magisk/KernelSU app, go to the Modules tab.
+
+Tap on Install from storage and select the downloaded ZIP file.
+
+Reboot your phone.
+
+Verify your connection using any standard Wi-Fi Analyzer tool supporting 6 GHz.
+
+⚠️ Disclaimer
+Root access carries inherent risks. Use this module at your own discretion.
+
+Ensure your router/access point supports Wi-Fi 6E/7 (6 GHz band) for the features to work properly.
