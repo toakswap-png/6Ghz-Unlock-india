@@ -16,11 +16,11 @@ Verified Performance: Successfully tested and connected to Wi-Fi 6E routers (suc
 The fix modifies the WLAN driver configuration file (WCNSS_qcom_cfg.ini) located under /vendor/etc/wifi/wcn7750/ with the following parameters:
 
 Ini, TOML
-BandCapability=7
-scan_mode_6ghz=1
-oem_6g_support_disable=0
+BandCapability=7 <br>
+scan_mode_6ghz=1 <br>
+oem_6g_support_disable=0 <br>
 📥 Installation Instructions
-Download the 6ghz-Truely-Unlock(india).zip file from the assets 
+Download the file <https://github.com/toakswap-png/6Ghz-Unlock-india/releases/download/6Ghz_Wifi_india/6ghz-Truely-Unlock.india.zip> from the assets 
 
 Open the Magisk or KernelSU app on your rooted POCO F7.
 
