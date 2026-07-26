@@ -19,14 +19,13 @@ The module modifies the WLAN driver configuration file located at `/vendor/etc/w
 BandCapability=7
 scan_mode_6ghz=1
 oem_6g_support_disable=0
-How to Install
+<b>How to Install
 Make sure your device is rooted with Magisk or KernelSU.
 
 Download the latest release ZIP from the Releases section.
-
-Open your Magisk/KernelSU app, go to the Modules tab.
-
-Tap on Install from storage and select the downloaded ZIP file.
+## 🌐 Recommended Additional Module
+Must Install [WiFi Country Changer Module](https://github.com/burakgon/KernelSU-WiFi-Country-Code/releases/download/v3.0/WiFi-Force-Country-Code-v3.0.zip) 
+Tap on Install from storage and select the downloaded ZIP files.
 
 Reboot your phone.
 
