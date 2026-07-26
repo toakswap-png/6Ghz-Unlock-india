@@ -24,7 +24,8 @@ Make sure your device is rooted with Magisk or KernelSU.
 
 Download the latest release ZIP from the Releases section.
 ## 🌐 Recommended Additional Module
-Must Install [WiFi Country Changer Module](https://github.com/burakgon/KernelSU-WiFi-Country-Code/releases/download/v3.0/WiFi-Force-Country-Code-v3.0.zip) 
+Must Install [WiFi Country Changer Module]
+https://github.com/burakgon/KernelSU-WiFi-Country-Code/releases/download/v3.0/WiFi-Force-Country-Code-v3.0.zip
 Tap on Install from storage and select the downloaded ZIP files.
 
 Reboot your phone.
