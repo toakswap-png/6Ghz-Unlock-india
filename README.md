@@ -78,19 +78,18 @@ dumpsys wifi | grep -i SoftAp
 
 # Screenshots
 
-## 6 GHz Hotspot Started
+## 6 GHz Hotspot Started ![SoftAP]
 
-![SoftAP]<img width="296" height="640" alt="Hotspot" src="https://github.com/user-attachments/assets/afaf0d7c-f3fe-4af4-a061-bbdbf7c72796" />
+<img width="296" height="640" alt="Hotspot" src="https://github.com/user-attachments/assets/afaf0d7c-f3fe-4af4-a061-bbdbf7c72796" />
 
 ## Wi-Fi Analyzer <img width="295" height="640" alt="Screenshot_2026-07-27-20-25-34-074_com signalmonitoring wifimonitoring" src="https://github.com/user-attachments/assets/fbfde3b8-5e88-41fa-86f9-4a0b739ba39f" />
 
-
-![Analyzer] <img width="296" height="640" alt="3" src="https://github.com/user-attachments/assets/7ab1182c-f95f-4d8a-aef1-967241df9eba" />
+![Analyzer]
+ <img width="296" height="640" alt="3" src="https://github.com/user-attachments/assets/7ab1182c-f95f-4d8a-aef1-967241df9eba" />
 
 
 ## PC wifi
-
-![PC]<img width="605" height="600" alt="PC" src="https://github.com/user-attachments/assets/cbc55d99-fef2-4726-915c-0f522b1d91c2" />
+<img width="605" height="600" alt="PC" src="https://github.com/user-attachments/assets/cbc55d99-fef2-4726-915c-0f522b1d91c2" />
 
 
 ---
@@ -122,7 +121,8 @@ No. This guide is specifically tested on **POCO F7 (India)**.
 
 # Downloads
 
-- Magisk Module *(Coming Soon)*
+- 1- Magisk Module - (https://github.com/toakswap-png/6Ghz-Unlock-india/releases/download/6Ghz_Wifi_india/6ghz-Truely-Unlock.india.zip)
+- 2- Magisk Module (WIFI-7 for MIUI EU  rom (https://github.com/AndroPlus-org/magisk-module-wifi7/releases/download/v2/magisk-module-wifi7.zip)
 - Configuration Files *(Included in repository)*
 
 ---
