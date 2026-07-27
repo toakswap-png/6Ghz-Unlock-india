@@ -46,7 +46,7 @@ Enable the hidden **6 GHz Wi-Fi Hotspot (SoftAP)** on the **POCO F7 (India)** Te
 ---
 
 # Installation
-
+Download zip file from Releases 
 1. Backup your original files.
 2. Apply the required modifications.
 3. Reboot the device.
