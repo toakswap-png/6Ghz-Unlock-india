@@ -1,4 +1,4 @@
-# POCO F7 6 GHz Wi-Fi & Hotspot (SoftAP) Unlock
+***Root*** # POCO F7 6 GHz Wi-Fi & Hotspot (SoftAP) Unlock
 
 ![Android](https://img.shields.io/badge/Android-16-green)
 ![HyperOS](https://img.shields.io/badge/HyperOS-3.x-blue)
