@@ -53,20 +53,29 @@ Download zip file from Releases
 4. Verify using ADB.
 
 ---
-
-# Verification
-
-Start a 6 GHz hotspot:
-
-```bash
-cmd wifi start-softap Test6G wpa3 12345678 -b 6
-```
-
-Check Wi-Fi status:
+***Developer Mode should on***
+1- in "adb plateform toools" Folder address bar type cmd & enter <br>
+2- adb shell <br>
+onyx:/ * <br>
+su <br>
+onyx:/ #
+# Verification  Start a 6 GHz hotspot:
 
 ```bash
-dumpsys wifi
+cmd wifi start-softap Test6G wpa3 12345678 -b 6 -w 80
+
 ```
+***Results 
+SAP is enabled successfully
+
+SoftApInfo{
+frequency=6135,
+wifiStandard=6,
+mIface='wlan2'
+} ***
+Check Wi-Fi status: afeter Hotspot started
+
+dumpsys wifi | grep -A20 -i "SoftApInfo"
 
 Check SoftAP information:
 
