@@ -5,7 +5,7 @@
 ![Root Required](https://img.shields.io/badge/Root-Required-red)
 ![Tested](https://img.shields.io/badge/Tested-POCO%20F7-success)
 
-Enable the hidden **6 GHz Wi-Fi Hotspot (SoftAP)** on the **POCO F7 (India)** running **HyperOS Global**.
+Enable the hidden **6 GHz Wi-Fi Hotspot (SoftAP)** on the **POCO F7 (India)** Tested **HyperOS Global** WIFI 6ax 6E / **MIUI EU 6Ghz Wifi-7 be**
 
 > **⚠️ Warning**
 >
