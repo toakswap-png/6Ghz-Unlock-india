@@ -1,4 +1,4 @@
-# POCO F7 6GHz Wi-Fi (6Ghz) Enabler for India 🇮🇳 (tested With Globel Rom)
+# POCO F7 6GHz Wi-Fi (6Ghz) Enabler for India 🇮🇳 (tested With Globel Rom & MIUI EU ROM)
 
 Unlock the hidden **6 GHz Wi-Fi (Wi-Fi 6E/7)** capabilities on the **POCO F7** by bypassing manufacturer software-level OEM restrictions.
 
