@@ -4,6 +4,7 @@
 Unlock the hidden **6 GHz Wi-Fi (Wi-Fi 6E+7)** capabilities on the **POCO F7** by bypassing manufacturer software-level OEM restrictions.
 
 > **Credits:** Researched, tested, and successfully implemented by **Akhilesh Shukla (Hardoi, Uttar Pradesh)**.
+> <img src="<img width="295" height="640" alt="image" src="https://github.com/user-attachments/assets/97c07044-f1e2-443e-bed1-9de4392e12c9" /> </img>
 
 ---
 
