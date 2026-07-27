@@ -14,7 +14,7 @@ By default, the Qualcomm WCN7750 hardware inside the POCO F7 is fully capable of
 * Able to run Hotspot on 6Ghz using when Connected to 6Ghz Wifi using My softAP apk Downlopad From  (https://github.com/toakswap-png/SoftAP2.0-root. )
 
 Download the latest release ZIP from the Releases section.
-## 🌐 Recommended Additional Module
+## 🌐 Recommended Additional Magisk Module
 Must Install [WiFi Country Changer Module]
 (https://github.com/burakgon/KernelSU-WiFi-Country-Code/releases/download/v3.0/WiFi-Force-Country-Code-v3.0.zip)
 & for WIFI-7 (working with MIUI-EU ROM) Download install
