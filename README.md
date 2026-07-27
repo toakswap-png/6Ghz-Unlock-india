@@ -115,7 +115,7 @@ No.
 
 ### Does this work on every POCO device?
 
-No. This guide is specifically tested on **POCO F7 (India)**.
+No. This guide is specifically tested on **POCO F7 (India)**. Other Qualcomm 8gen 4 Device may Support
 
 ---
 
