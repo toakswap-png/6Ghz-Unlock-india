@@ -1,42 +1,148 @@
-# POCO F7 6GHz Wi-Fi (6Ghz) Enabler for India 🇮🇳 (tested With Globel Rom & MIUI EU ROM)
-1- I have TP-Link Archer AXE75
-2- POCO f7 (india) Now in MiuiEU ROM
-Unlock the hidden **6 GHz Wi-Fi (Wi-Fi 6E+7)** capabilities on the **POCO F7** by bypassing manufacturer software-level OEM restrictions.
+# POCO F7 6 GHz Wi-Fi Hotspot (SoftAP) Unlock
 
-> **Credits:** Researched, tested, and successfully implemented by **Akhilesh Shukla (Hardoi, Uttar Pradesh)**.
-<img width="295" height="640" alt="image" src="https://github.com/user-attachments/assets/97c07044-f1e2-443e-bed1-9de4392e12c9" /> <img width="295" height="640" alt="image" src="https://github.com/toakswap-png/6Ghz-Unlock-india/blob/main/3.jpg?raw=true" /> 
+![Android](https://img.shields.io/badge/Android-15-green)
+![HyperOS](https://img.shields.io/badge/HyperOS-2.x-blue)
+![Root Required](https://img.shields.io/badge/Root-Required-red)
+![Tested](https://img.shields.io/badge/Tested-POCO%20F7-success)
 
-## 🚀 Overview
-By default, the Qualcomm WCN7750 hardware inside the POCO F7 is fully capable of handling 6 GHz bands. However, software configurations (`WCNSS_qcom_cfg.ini`) lock out Band 4 and restrict scanning modes for regional/OEM reasons. This Magisk module overrides those restrictions to enable high-speed Wi-Fi 6E connectivity.
+Enable the hidden **6 GHz Wi-Fi Hotspot (SoftAP)** on the **POCO F7 (India)** running **HyperOS Global**.
 
-* **Tested & Verified:** Successfully connected to Wi-Fi 6E routers (such as the TP-Link Archer AXE75) on 160MHz channels.
-* Able to run Hotspot on 6Ghz using when Connected to 6Ghz Wifi using My softAP apk Downlopad From  (https://github.com/toakswap-png/SoftAP2.0-root. )
+> **⚠️ Warning**
+>
+> This project requires **root access** and modifies system/vendor configuration. Make a full backup before making any changes. Use it at your own risk.
 
-Download the latest release ZIP from the Releases section.
-## 🌐 Recommended Additional Magisk Module
-Must Install [WiFi Country Changer Module]
-(https://github.com/burakgon/KernelSU-WiFi-Country-Code/releases/download/v3.0/WiFi-Force-Country-Code-v3.0.zip)
-& for WIFI-7 (working with MIUI-EU ROM) Download install
-(https://github.com/AndroPlus-org/magisk-module-wifi7/releases/download/v2/magisk-module-wifi7.zip)
-Tap on Install from storage and select the downloaded ZIP files.
-
-Reboot your phone.
 ---
 
-## 🛠️ What Does This Fix?
-The module modifies the WLAN driver configuration file located at `/vendor/etc/wifi/wcn7750/WCNSS_qcom_cfg.ini`[cite: 2]:
-```ini
-BandCapability=7
-scan_mode_6ghz=1
-oem_6g_support_disable=0
-How to Install
-Make sure your device is rooted with Magisk or KernelSU.
+# Features
 
+- ✅ Enables hidden **6 GHz Wi-Fi & Hotspot (SoftAP)**
+- ✅ Tested on **POCO F7 (India)**
+- ✅ HyperOS Global /MIUI EU 
+- ✅ Root Required
+- ✅ Easy verification using ADB
 
+---
 
-Verify your connection using any standard Wi-Fi Analyzer tool supporting 6 GHz.
-CREATED BY AKHILESH KUMAR SHUKLA
-⚠️ Disclaimer
-Root access carries inherent risks. Use this module at your own discretion.
+# Device Information
 
-Ensure your router/access point supports Wi-Fi 6E/7 (6 GHz band) for the features to work properly.
+| Item | Value |
+|------|-------|
+| Device | POCO F7 |
+| Region | India/ Changed to US |
+| ROM | HyperOS Global/MIUI EU |
+| Android | 16 |
+| Root | Required |
+| Status | Tested & Working |
+
+---
+
+# Requirements
+
+- Root (Magisk/APatch/KernelSU)
+- HyperOS Global
+- Basic ADB knowledge
+- Backup before modifying system files
+
+---
+
+# Installation
+
+1. Backup your original files.
+2. Apply the required modifications.
+3. Reboot the device.
+4. Verify using ADB.
+
+---
+
+# Verification
+
+Start a 6 GHz hotspot:
+
+```bash
+cmd wifi start-softap Test6G wpa3 12345678 -b 6
+```
+
+Check Wi-Fi status:
+
+```bash
+dumpsys wifi
+```
+
+Check SoftAP information:
+
+```bash
+dumpsys wifi | grep -i SoftAp
+```
+
+---
+
+# Screenshots
+
+## 6 GHz Hotspot Started
+
+![SoftAP](screenshots/softap_started.png)
+
+## Wi-Fi Analyzer
+
+![Analyzer]
+
+## dumpsys wifi
+
+![Dump](screenshots/dumpsys_wifi.png)
+
+---
+
+# Known Limitations
+
+- Root is required.
+- OTA updates may overwrite modified files.
+- Regional regulatory restrictions may affect behavior.
+- Results may differ on other ROMs.
+
+---
+
+# FAQ
+
+### Does this enable Wi-Fi 7?
+
+No. This project enables access to the hidden **6 GHz band** where supported. Whether Wi-Fi 7 features are available depends on your hardware, firmware, drivers, and ROM.
+
+### Does it work without root?
+
+No.
+
+### Does this work on every POCO device?
+
+No. This guide is specifically tested on **POCO F7 (India)**.
+
+---
+
+# Downloads
+
+- Magisk Module *(Coming Soon)*
+- Configuration Files *(Included in repository)*
+
+---
+
+# XDA Thread
+
+https://xdaforums.com/t/root-guide-enable-hidden-6-ghz-wi-fi-hotspot-softap-on-poco-f7-india-tested.4796273/
+
+---
+
+# Credits
+
+- Qualcomm
+- Android Open Source Project
+- XDA Developers
+- Everyone who tested and provided feedback
+
+---
+
+# Disclaimer
+
+This project is provided for educational and research purposes. The author is not responsible for any damage, data loss, or regulatory issues resulting from its use.
+
+---
+
+⭐ If this project helped you, please consider **starring the repository**.
